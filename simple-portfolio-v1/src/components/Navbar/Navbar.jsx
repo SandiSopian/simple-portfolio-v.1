@@ -5,7 +5,7 @@ const Navbar = () => {
   if (!header.email) return null;
 
   return (
-    <header className="flex gap-10 py-4 px-8 bg-gray-800 text-white">
+    <header className="flex gap-10 py-4 px-8 text-white">
       <div>
         <a href={`mailto:${email}`} alt="Email Address">
           <span className="py-2 px-7 text-white bg-gray-300 rounded-full">{header.email}</span>
