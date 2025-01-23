@@ -1,14 +1,14 @@
-import BrandImg1 from "../src/assets/icons/coca-cola.svg";
-import BrandImg2 from "../src/assets/icons/lg.svg";
-import BrandImg3 from "../src/assets/icons/hyundai.svg";
-import BrandImg4 from "../src/assets/icons/kia-motors.svg";
-import BrandImg5 from "../src/assets/icons/samsung.svg";
-import BrandImg6 from "../src/assets/icons/line.svg";
-import ProjectImg1 from "../src/assets/icons/calendar.svg";
-import ProjectImg2 from "../src/assets/icons/creative-jigsaw.svg";
-import ProjectImg3 from "../src/assets/icons/app-development.svg";
-import ProjectImg4 from "../src/assets/icons/monitor.svg";
-import ContactImg from "../src/assets/icons/handshake.svg";
+import BrandImg1 from "../assets/icons/coca-cola.svg";
+import BrandImg2 from "../assets/icons/lg.svg";
+import BrandImg3 from "../assets/icons/hyundai.svg";
+import BrandImg4 from "../assets/icons/kia-motors.svg";
+import BrandImg5 from "../assets/icons/samsung.svg";
+import BrandImg6 from "../assets/icons/line.svg";
+import ProjectImg1 from "../assets/icons/calendar.svg";
+import ProjectImg2 from "../assets/icons/creative-jigsaws.svg";
+import ProjectImg3 from "../assets/icons/app-development.svg";
+import ProjectImg4 from "../assets/icons/monitor.svg";
+import ContactImg from "../assets/icons/handshake.svg";
 
 export const header = {
   email: "sandis17@outlook.com",
@@ -74,10 +74,23 @@ export const contact = {
   contactWhatsapp: "+6281234567890",
 };
 
+// Social Media
+export const socialMedia = [
+  {
+    socialMediaName: "linkedin",
+    socialMediaLink: "https://www.linkedin.com/in/sandis17/",
+  },
+  {
+    socialMediaName: "Behance",
+    socialMediaLink: "https://www.linkedin.com/in/sandis17/",
+  },
+  {
+    socialMediaName: "Instagram",
+    socialMediaLink: "https://www.linkedin.com/in/sandis17/",
+  },
+];
+
 // Footer
 export const footer = {
   footerDescription: "© 2025 SS. All rights reserved.",
-  footerLinkdin: "https://www.linkedin.com/in/sandis17/",
-  footerBehance: "https://www.linkedin.com/in/sandis17/",
-  footerInstagram: "https://www.linkedin.com/in/sandis17/",
 };
