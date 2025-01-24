@@ -6,10 +6,10 @@ const Hero = () => {
   const { lastestShots } = hero;
 
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col items-center mt-12">
-        {/*  */}
-        <div className="">
+    <div className="bg-bg-primary rounded-b-[6rem] md:rounded-b-[8rem] flex flex-col items-center justify-center mt-12">
+      <div className="flex flex-col items-center justify-center">
+        {/* Profile Picture */}
+        <div>
           <img src="/src/assets/images/profile-picture.jpg" alt="profile picture" className="w-20 rounded-full border-2 border-white mx-auto" />
         </div>
         {/* Nama Profile */}
@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       {/* Lastest Project Button */}
-      <div className="flex flex-col items-center mt-6 text-xs">
+      <div className="flex flex-col items-center mt-6 mb-24 text-xs">
         <a href={lastestShots} className="py-2 px-6 bg-black text-white rounded-full">
           Lastest Project
           <span className="ml-2">
