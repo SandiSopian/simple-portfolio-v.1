@@ -6,7 +6,7 @@ const Hero = () => {
   const { lastestShots } = hero;
 
   return (
-    <div className="bg-bg-primary h-svh flex flex-col">
+    <div className="flex flex-col">
       <div className="flex flex-col items-center mt-12">
         {/*  */}
         <div className="">
