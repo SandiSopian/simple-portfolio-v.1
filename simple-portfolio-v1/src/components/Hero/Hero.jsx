@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
       {/* Lastest Project Button */}
-      <div className="flex flex-col items-center mt-6">
+      <div className="flex flex-col items-center mt-6 text-xs">
         <a href={lastestShots} className="py-2 px-6 bg-black text-white rounded-full">
           Lastest Project
           <span className="ml-2">
