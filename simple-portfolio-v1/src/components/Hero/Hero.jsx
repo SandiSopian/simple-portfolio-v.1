@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <div className="bg-bg-primary h-svh flex flex-col">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-12">
         {/*  */}
         <div className="">
           <img src="/src/assets/images/profile-picture.jpg" alt="profile picture" className="w-20 rounded-full border-2 border-white mx-auto" />
