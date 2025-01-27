@@ -76,7 +76,7 @@ export const project = [
 export const contact = {
   contactLogo: ContactImg,
   contactEmail: "sandis17@outlook.com",
-  contactWhatsapp: "+6281234567890",
+  contactWhatsapp: "+6281288825373",
 };
 
 // Social Media
@@ -87,11 +87,11 @@ export const socialMedia = [
   },
   {
     socialMediaName: "Behance",
-    socialMediaLink: "https://www.linkedin.com/in/sandis17/",
+    socialMediaLink: "https://www.behance.net/sandisopian",
   },
   {
     socialMediaName: "Instagram",
-    socialMediaLink: "https://www.linkedin.com/in/sandis17/",
+    socialMediaLink: "https://www.instagram.com/sarendia__/",
   },
 ];
 
