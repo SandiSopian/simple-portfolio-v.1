@@ -9,10 +9,16 @@ import ProjectImg2 from "../assets/icons/creative-jigsaws.svg";
 import ProjectImg3 from "../assets/icons/app-development.svg";
 import ProjectImg4 from "../assets/icons/monitor.svg";
 import ContactImg from "../assets/icons/handshake.svg";
+import ProfileImg from "../assets/images/profile-picture.jpg";
 
 export const header = {
   email: "sandis17@outlook.com",
   cv: "https://www.canva.com/design/DAGZ55bg9WI/3f6UodohV1UdpV70PQunTg/edit?utm_content=DAGZ55bg9WI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+};
+
+// Profile
+export const profile = {
+  profileImg: ProfileImg,
 };
 
 // Hero

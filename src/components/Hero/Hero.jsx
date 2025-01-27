@@ -1,16 +1,17 @@
-import { hero } from "../../services/database";
+import { hero, profile } from "../../services/database";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   const { lastestShots } = hero;
+  const { profileImg } = profile;
 
   return (
     <div className="bg-bg-primary rounded-b-[6rem] md:rounded-b-[8rem] flex flex-col items-center justify-center mt-12">
       <div className="flex flex-col items-center justify-center">
         {/* Profile Picture */}
         <div>
-          <img src="/src/assets/images/profile-picture.jpg" alt="profile picture" className="w-20 rounded-full border-2 border-white mx-auto" />
+          <img src={profileImg} alt="profile picture" className="w-20 rounded-full border-2 border-white mx-auto" />
         </div>
         {/* Nama Profile */}
         <div className="text-xs py-1 px-4 bg-white -my-12 ml-40 rounded-full transform -rotate-15 origin-top-left">
