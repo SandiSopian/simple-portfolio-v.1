@@ -25,7 +25,7 @@ const Project = () => {
       </div>
 
       <div className="mt-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mx-8 md:mx-48 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mx-8 lg:mx-48 items-center justify-center">
           {project.map((project, index) => (
             <div key={index}>
               <img src={project.images} alt="project" className="w-10" />
