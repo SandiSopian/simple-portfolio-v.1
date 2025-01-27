@@ -69,7 +69,6 @@ export const project = [
 // Contact
 export const contact = {
   contactLogo: ContactImg,
-  contactDescription: "Tell me about your project and let's work together.",
   contactEmail: "sandis17@outlook.com",
   contactWhatsapp: "+6281234567890",
 };
