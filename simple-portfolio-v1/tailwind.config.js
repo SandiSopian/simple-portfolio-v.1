@@ -13,5 +13,17 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          // Tambahkan custom style dengan hover
+          ".hover-scale": {
+            "@apply transition transform hover:scale-105": {}, // Tambahkan efek scale dengan hover
+          },
+        },
+        ["responsive", "hover"] // Tambahkan varian hover atau responsive
+      );
+    },
+  ],
 };

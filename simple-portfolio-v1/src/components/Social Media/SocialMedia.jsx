@@ -6,7 +6,7 @@ const SocialMedia = () => {
       {socialMedia.map((item, index) => (
         <div key={index}>
           <a href={item.socialMediaLink} target="_blank" rel="noopener noreferrer">
-            <div className="hover:underline hover:text-blue-500">
+            <div className="hover-scale">
               {item.socialMediaName}
               {index < socialMedia.length - 1 && <span className="px-2">/</span>}
             </div>

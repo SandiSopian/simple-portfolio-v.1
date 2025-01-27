@@ -22,7 +22,7 @@ const Contact = () => {
 
       <div className="flex gap-3 mt-6 mb-24">
         {/* Direct Email */}
-        <a href={`mailto:${contactEmail}`} className="py-2 px-6 rounded-full bg-black text-white text-xs">
+        <a href={`mailto:${contactEmail}`} className="py-2 px-6 rounded-full bg-black text-white text-xs hover-scale">
           <span className="mr-2">
             <FontAwesomeIcon icon={faEnvelope} />
           </span>
@@ -30,7 +30,7 @@ const Contact = () => {
         </a>
 
         {/* Direct WhatsApp */}
-        <a href={`https://wa.me/${contactWhatsapp.replace(/[^\d]/g, "")}`} className="py-2 px-6 rounded-full bg-white text-xs" target="_blank" rel="noopener noreferrer">
+        <a href={`https://wa.me/${contactWhatsapp.replace(/[^\d]/g, "")}`} className="py-2 px-6 rounded-full bg-white text-xs hover-scale" target="_blank" rel="noopener noreferrer">
           WhatsApp
         </a>
       </div>
